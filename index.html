@@ -12,190 +12,228 @@
         <h1>Dibya Darshan Khanal</h1>
         <button class="hamburger">☰</button>
         <ul>
+          <li><a href="#hero">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#research">Research</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#projects">Projects</a></li>
         </ul>
       </nav>
     </header>
 
     <main class="container">
-      <section id="about" class="profile-section">
-        <img src="assets/Profile_Picture.png" alt="Dibya Darshan Khanal" class="profile-image" />
-        <div class="profile-content">
-          <div class="column">
-            <h2>About Me</h2>
-            <p>
-              I am an AWS DevOps and Site Reliability Engineer (SRE) with over 4 years of
-              experience. As an AWS Certified Solutions Architect and recognized AWS Community
-              Builder, I bring extensive expertise in cloud infrastructure, automation, and system
-              reliability.
-            </p>
-            <p>
-              My research focuses on the intersection of cloud computing, security, and automation,
-              with a particular emphasis on cloud security, AI-driven threat detection, and
-              innovative automation approaches like serverless computing and containerization.
-            </p>
+      <!-- Hero Section -->
+      <section id="hero" class="hero-section">
+        <div class="hero-content">
+          <img src="assets/Profile_Picture.png" alt="Dibya Darshan Khanal" class="profile-image" />
+          <div class="hero-text">
+            <h1 class="hero-title">Dibya Darshan Khanal</h1>
+            <p class="hero-subtitle">Cloud & Infrastructure Engineer | DevOps | SRE</p>
+            <p class="hero-description">Cincinnati, Ohio • 5+ years experience • AWS Certified Solutions Architect • AWS Community Builder</p>
           </div>
-        </div>
-        <div class="certification-badges">
-          <img src="assets/saaco2.png" alt="AWS Certification" class="certification-badge" />
-          <img src="assets/aws_cb.png" alt="AWS Community Builder" class="certification-badge" />
+          <div class="certification-badges">
+            <img src="assets/saaco2.png" alt="AWS Certification" class="certification-badge" />
+            <img src="assets/aws_cb.png" alt="AWS Community Builder" class="certification-badge" />
+          </div>
         </div>
 
         <div class="contact-buttons">
-          <a
-            href="https://www.linkedin.com/in/dibya-darshan-khanal/"
-            target="_blank"
-            class="contact-button"
-            >LinkedIn</a
-          >
-          <a href="https://drive.google.com/file/d/190app02Hxq0TcZpp2yZhePWRCnr8uvVY/view?usp=sharing" target="_blank" class="contact-button"
-            >Resume</a
-          >
-          <a href="https://scholar.google.com/citations?user=f2dg-4kAAAAJ&hl=en" target="_blank" class="contact-button"
-          >Google Scholar</a
-        >
-          <a href="mailto:dibya.ddk@gmail.com" class="contact-button">Email</a>
-        
+          <a href="https://www.linkedin.com/in/dibya-darshan-khanal/" target="_blank" class="contact-button">
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/dibae101/" target="_blank" class="contact-button">
+            <span>GitHub</span>
+          </a>
+          <a href="assets/resume.pdf" target="_blank" class="contact-button">
+            <span>Resume</span>
+          </a>
+          <a href="https://scholar.google.com/citations?user=f2dg-4kAAAAJ&hl=en" target="_blank" class="contact-button">
+            <span>Scholar</span>
+          </a>
+          <a href="mailto:dibya.ddk@gmail.com" class="contact-button">
+            <span>Email</span>
+          </a>
         </div>
+      </section>
 
-        
+      <section id="about" class="section">
+        <h2>About</h2>
+        <p>Site Reliability Engineer specializing in cloud infrastructure, automation, and system reliability. Currently pursuing Masters in Computer and Information Sciences with expertise in AWS multi-region architectures, observability stack optimization, and zero-downtime deployments.</p>
       </section>
 
       <section id="skills" class="section">
-        <h2>Skills</h2>
-        <ul>
-          <li><b>Cloud Infrastructure:</b> AWS, Azure, Git, Atlassian</li>
-          <li><b>Servers:</b> Web, File, Database, Mail, SSH, Virtualization</li>
-          <li>
-            <b>Automation:</b> Jenkins, Cloudformation, Terraform, Ansible, CodePipeline, GitHub,
-            GitLab
-          </li>
-          <li><b>Containerization:</b> ECS, EKS, ECR, DockerHub, Kubernetes, Nexus</li>
-          <li>
-            <b>Logging and Monitoring: </b> Datadog, Cloudwatch, Cloudtrail, Splunk, Datadog,
-            Site24x7, ELK, Nagios
-          </li>
-          <li><b>Scripting:</b> Python, Shell, JavaScript, Groovy</li>
-        </ul>
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Cloud Infrastructure</h3>
+            <p>AWS, Azure, Git, Atlassian</p>
+          </div>
+          <div class="skill-category">
+            <h3>Automation & CI/CD</h3>
+            <p>Jenkins, CloudFormation, Terraform, Ansible, CodePipeline, GitHub, GitLab</p>
+          </div>
+          <div class="skill-category">
+            <h3>Containerization</h3>
+            <p>ECS, EKS, ECR, Docker, Kubernetes, Nexus</p>
+          </div>
+          <div class="skill-category">
+            <h3>Logging & Monitoring</h3>
+            <p>Datadog, CloudWatch, CloudTrail, Splunk, Site24x7, ELK, Nagios, Apache Superset</p>
+          </div>
+          <div class="skill-category">
+            <h3>Programming & Scripting</h3>
+            <p>Python, Shell, JavaScript, Groovy, C, C++, C#</p>
+          </div>
+          <div class="skill-category">
+            <h3>AI & ML Tools</h3>
+            <p>OpenAI, LangChain, TensorFlow, scikit-learn, AWS SageMaker, Apache Doris</p>
+          </div>
+        </div>
       </section>
 
       <section id="research" class="section">
-        <h2>Recent News</h2>
-        <p>
-          <b>Peer-reviewed Journal Articles </b> <br> 
-          [1] Khanal, D. D., and Maharjan, S. (2024). Comparative Security and Compliance
-          Analysis of Serverless Computing Platforms: Aws Lambda, Azure Functions, and
-          Google Cloud Functions. i-manager's Journal on Cloud Computing, 11(1),
-          36-42. <a href="https://doi.org/10.26634/jcc.11.1.21044"
-          target="_blank"> "https://doi.org/10.26634/jcc.11.1.21044"</a>
-        </p>
-        <p>
-          <b> Paper in Progress </b> <br>
-          AI-Driven Autoscaling in Microservices: Enhancing Reliability While Maintaining Scalability
-        </p>
+        <h2>Research & Publications</h2>
+        <div class="publication">
+          <h3>Peer-reviewed Journal</h3>
+          <p><strong>Comparative Security Analysis of Serverless Computing Platforms</strong></p>
+          <p><em>i-manager's Journal on Cloud Computing, 11(1), 36-42</em></p>
+          <a href="https://doi.org/10.26634/jcc.11.1.21044" target="_blank" class="publication-link">View Publication</a>
+        </div>
+        <div class="publication">
+          <h3>In Progress</h3>
+          <p><strong>AI-Driven Autoscaling in Microservices</strong></p>
+          <p><em>Enhancing Reliability While Maintaining Scalability</em></p>
+        </div>
       </section>
 
       <section id="experience" class="section">
-        <h2>Professional Experience</h2>
-        <h3>UBA Solutions (A Monotype Partner Company)</h3>
-        <p>Site Reliability Engineer | Dec 2022–Jan 2025</p>
-        <ul>
-          <li>Acquired extensive knowledge in advanced monitoring, logging, and alerting tools.</li>
-          <li>Worked extensively with various AWS cloud platform services.</li>
-          <li>Maintained 99.95% uptime for an enterprise-level application.</li>
-          <li>
-            Managed proactive monitoring for 100,000 users per hour with over 150,000 fonts and
-            foundries.
-          </li>
-        </ul>
-        <br />
-        <h3>Cloudlaya</h3>
-        <p>Software Engineer | Associate Cloud and DevOps | April 2020–Dec 2022</p>
-        <ul>
-          <li>Maintained hundreds of websites on WHM and CPanel.</li>
-          <li>Architected AWS solutions for diverse clients.</li>
-          <li>Automated client websites using Jenkins, CodePipeline, and CodeDeploy.</li>
-        </ul>
+        <h2>Experience</h2>
+        <div class="experience-item">
+          <div class="experience-header">
+            <h3>Site Reliability Engineer</h3>
+            <span class="experience-duration">Dec 2022 – Jan 2025</span>
+          </div>
+          <p class="company">UBA Solutions Pvt Ltd.</p>
+          <ul class="experience-highlights">
+            <li>Built and optimized observability stack (Datadog, ELK, Grafana, Splunk), improving alert accuracy by 40% and reducing MTTR by 25%</li>
+            <li>Architected AWS multi-region failover infrastructure, enabling zero-downtime deployments and boosting rollout reliability</li>
+            <li>Maintained 99.95% uptime for a SaaS platform serving 100K+ users/hour via proactive scaling and automated recovery</li>
+            <li>Received the '2023 Above and Beyond Award' for exceptional contribution and performance</li>
+          </ul>
+        </div>
+        
+        <div class="experience-item">
+          <div class="experience-header">
+            <h3>Software Engineer & Associate Cloud and DevOps</h3>
+            <span class="experience-duration">Apr 2020 – Dec 2022</span>
+          </div>
+          <p class="company">Cloudlaya</p>
+          <ul class="experience-highlights">
+            <li>Managed 100+ websites using WHM and cPanel, ensuring uptime and rapid issue resolution</li>
+            <li>Automated deployments for 50+ client sites with Jenkins & CodePipeline, cutting manual effort by 60% and reducing deployment time by 88%</li>
+            <li>Migrated 20+ services to ECS Fargate using Terraform & CloudFormation, lowering hosting costs by 30% and boosting reliability</li>
+            <li>Refactored and modernized legacy applications (SpringBoot 1.5.x, PHP, Node.js) and contributed to new feature development using Django and Vue.js, improving maintainability and reducing security risks by 40%</li>
+          </ul>
+        </div>
       </section>
 
       <section id="education" class="section">
         <h2>Education</h2>
-        <h3>PRIME COLLEGE</h3>
-        <p>Bachelors in Computer Science and Information Technology (BSC.CSIT) | 2021</p>
-        <p>Academic Achievement - 75.17% | College Topper - Final Semester (86%)</p>
+        <div class="education-item">
+          <h3>Masters in Computer and Information Sciences</h3>
+          <p class="institution">University of Cincinnati</p>
+          <div class="education-details">
+            <span class="year">2025-present</span>
+            <span class="achievement">Cincinnati, OH</span>
+          </div>
+        </div>
+        <div class="education-item">
+          <h3>Bachelors of Computer Science and Information Technology</h3>
+          <p class="institution">Tribhuvan University</p>
+          <div class="education-details">
+            <span class="year">2017-2021</span>
+            <span class="achievement">Kathmandu, Nepal</span>
+          </div>
+        </div>
       </section>
 
       <section id="certifications" class="section">
         <h2>Certifications</h2>
-        <ul>
-          <li>
-            <a
-              href="https://www.credly.com/badges/ac9b6b8c-fd62-48ff-828a-6d1c8d166cf9/linked_in_profile"
-              target="_blank"
-              >AWS Solutions Architect Associate</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.udemy.com/certificate/UC-79bfc98b-a737-4d14-bb94-12fb5468da45/"
-              target="_blank"
-            >
-              Docker & Kubernetes: The Practical Guide
-            </a>
-          </li>
-        </ul>
+        <div class="certifications-grid">
+          <a href="https://www.credly.com/badges/ac9b6b8c-fd62-48ff-828a-6d1c8d166cf9/linked_in_profile" target="_blank" class="certification-card">
+            <h3>AWS Solutions Architect Associate</h3>
+            <p>Amazon Web Services</p>
+          </a>
+          <a href="https://www.udemy.com/certificate/UC-79bfc98b-a737-4d14-bb94-12fb5468da45/" target="_blank" class="certification-card">
+            <h3>Docker & Kubernetes: The Practical Guide</h3>
+            <p>Udemy</p>
+          </a>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <h2>Personal Projects</h2>
+        <div class="community-grid">
+          <div class="community-item">
+            <h3>ARPF-TI</h3>
+            <p>A modern AI-powered reverse proxy firewall combining rule-based filtering with Gemini and TinyLlama threat detection, real-time monitoring, and multi-source threat intelligence for comprehensive web security.</p>
+            <a href="https://github.com/Dibae101/ARPF-TI" target="_blank" class="community-link">View on GitHub</a>
+          </div>
+          
+          <div class="community-item">
+            <h3>Datadog Synthetic Monitor Validator</h3>
+            <p>Automated health check validation and alerting with Datadog API to reduce false positives and enhance reliability.</p>
+            <a href="https://github.com/Dibae101/datadog-monitor-drill" target="_blank" class="community-link">View on GitHub</a>
+          </div>
+          
+          <div class="community-item">
+            <h3>Java Spring Boot CI/CD Pipeline with AWS EKS</h3>
+            <p>A complete CI/CD solution for deploying Java Spring Boot applications to AWS EKS using Jenkins, SonarQube, Docker, Terraform, and Kubernetes.</p>
+            <a href="https://github.com/Dibae101/Java-CI-CD" target="_blank" class="community-link">View on GitHub</a>
+          </div>
+
+          <div class="community-item">
+            <h3>Soccer Data ETL Pipeline</h3>
+            <p>Developed ETL pipeline to load soccer data into Apache Doris along with Apache Superset for analytics and visualization.</p>
+            <a href="https://github.com/Dibae101/SoccerDataAnalysis" target="_blank" class="community-link">View on GitHub</a>
+          </div>
+
+          <div class="community-item">
+            <h3>Security Scanning with AWS Inspector</h3>
+            <p>Created Python automation for EC2/ECR vulnerability scanning integrated with CI/CD pipelines using AWS Inspector V2.</p>
+            <a href="https://github.com/Dibae101/aws-inspector-v2" target="_blank" class="community-link">View on GitHub</a>
+          </div>
+
+          <div class="community-item">
+            <h3>Fixit.AI</h3>
+            <p>FixIt.AI is a Django-based application that provides a comprehensive platform for API testing, chaos engineering, and automated root cause analysis. It helps developers test, break, and fix their APIs in a controlled environment.</p>
+            <a href="https://github.com/Dibae101/Fixit.AI" target="_blank" class="community-link">View on GitHub</a>
+          </div>
+        </div>
       </section>
 
       <section class="section">
-        <h2>Community Involvement</h2>
-        <p>
-          <a
-            href="https://aws.amazon.com/developer/community/community-builders/community-builders-directory/?cb-cards.sort-by=item.additionalFields.cbName&cb-cards.sort-order=asc&awsf.builder-category=*all&awsf.location=*all&awsf.year=*all&cb-cards.q=dibya%2Bdarshan%2Bkhanal&cb-cards.q_operator=AND"
-            target="_blank"
-            >AWS Community Builder</a
-          >
-          in the Container category
-        </p>
-        <p>
-          As an AWS Community Builder in the Container category, I've accessed global expert
-          support, engaged in peer learning, and received AWS credits. Enjoying benefits from
-          CloudAcademy, I provide feedback for service enhancement. Plus, direct insights from AWS
-          product teams keep me updated on new features and services.
-        </p>
-        <br>
-        <p>
-          <a
-            href=""
-            target="_blank">
-            Opensource Initiative            </a
-          >
-        </p>
-        <p>
-          Actively contributing to open-source initiatives, collaborating with global communities to develop innovative solutions, improve software quality, and promote knowledge sharing in the tech ecosystem.
-        </p>
-
-        <br>
-        <p>
-          <a
-            href=""
-            target="_blank">
-            DevOps Kathmandu
-           </a
-          >
-        </p>
-        <p>
-          I am an active member of the DevOps Kathmandu group, where I participate in seminars, engage with the local DevOps community, and share ideas on improving processes and tools. This platform allows me to stay updated on industry trends while fostering collaboration with like-minded professionals.
-        </p>
-      </section>
-
-      <section id="github-repos" class="section">
-        <h2>My GitHub Repositories</h2>
-        <div id="github-feed"></div>
+        <h2>Community</h2>
+        <div class="community-grid">
+          <div class="community-item">
+            <h3>AWS Community Builder</h3>
+            <p>Container category - Global expert support & peer learning</p>
+            <a href="https://aws.amazon.com/developer/community/community-builders/community-builders-directory/?cb-cards.sort-by=item.additionalFields.cbName&cb-cards.sort-order=asc&awsf.builder-category=*all&awsf.location=*all&awsf.year=*all&cb-cards.q=dibya%2Bdarshan%2Bkhanal&cb-cards.q_operator=AND" target="_blank" class="community-link">View Profile</a>
+          </div>
+          
+          <div class="community-item">
+            <h3>Open Source Contributor</h3>
+            <p>Collaborating with global communities on innovative solutions</p>
+          </div>
+          
+          <div class="community-item">
+            <h3>DevOps Kathmandu</h3>
+            <p>Active member engaging in seminars and knowledge sharing</p>
+          </div>
+        </div>
       </section>
 
       <section id="medium-blogs" class="section">
@@ -205,23 +243,18 @@
     </main>
 
     <footer>
-      <p>
-        Contact: dibya.ddk@gmail.com | 646-842-4641 |
-        <a href="https://www.linkedin.com/in/dibya-darshan-khanal/" target="_blank">LinkedIn</a>
-      </p>
+      <div class="container">
+        <p>
+          📧 dibya.ddk@gmail.com | 
+          <a href="https://www.linkedin.com/in/dibya-darshan-khanal/" target="_blank">LinkedIn</a> | 
+          <a href="https://github.com/dibae101/" target="_blank">GitHub</a>
+        </p>
+        <p style="margin-top: 10px; font-size: 0.9rem; opacity: 0.8;">
+          © 2025 Dibya Darshan Khanal. Built with ❤️ and modern web technologies.
+        </p>
+      </div>
     </footer>
 
-    <script>
-      document.querySelector(".hamburger").addEventListener("click", function () {
-        document.querySelector("nav ul").classList.toggle("show");
-      });
-
-      document.querySelectorAll("nav ul li a").forEach((link) => {
-        link.addEventListener("click", function () {
-          document.querySelector("nav ul").classList.remove("show");
-        });
-      });
-    </script>
     <script src="scripts.js"></script>
   </body>
 </html>
